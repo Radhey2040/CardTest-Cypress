@@ -1,0 +1,62 @@
+.insightCard {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18rem;
+    height: 26rem;
+    padding-top: 16px;
+    padding-left: 16px;
+    margin: 20px;
+    background: #f6f6f7;
+    overflow: hidden;
+}
+
+/* .container {
+    width: 100%;
+} */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardText {
+    font-family: 'Aeonik Medium', sans-serif;
+}
+
+.cardText p {
+    color: #0028d7;
+}
+
+.imgDiv {
+    opacity: 1;
+    position: relative;
+}
+
+.overlay {
+    background: #f6f6f7;
+    border-left: 10px solid #002fff;
+    height: 100%;
+    width: 100%;
+    left: 110%;
+    position: absolute;
+    transition: all .5s ease-in-out;
+}
+
+.overlayText {
+    font-family: 'Open Sans', sans-serif;
+    padding: 16px 0 0 16px;
+}
+
+.card:hover .overlay {
+    left: 0;
+}
+
+.clickDiv:focus {
+   font: bold;
+   color: red;
+}
